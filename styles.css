@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(85, 130, 138);
+  color: beige;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+input {
+  border-style: none;
+  vertical-align: middle;
+}
+
+button {
+  background-color: rgb(45, 79, 80);
+  border-style: none;
+  border-radius: 25px;
+  padding: 10px 15px;
+}
+
+button:hover {
+  background-color: rgb(71, 108, 109);
+}
+
+button:active {
+  background-color: rgb(45, 71, 71);
+}
+
+.form-element {
+  display: inline-block;
+}
+
+#properties-form {
+  margin-top: 30px;
+}
+
+button,
+#height-input,
+#width-input {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: beige;
+}
+
+#height-input,
+#width-input {
+  padding-left: 5px;
+  text-align: center;
+  background-color: rgb(108, 161, 163);
+  border-radius: 25px;
+  width: 50px;
+  height: 25px;
+}
+
+#colour-input {
+  background-color: rgb(255, 255, 255, 0);
+  width: 60px;
+  height: 30px;
+}
+
+#colour-input::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+#colour-input::-webkit-color-swatch {
+  border-radius: 25px;
+}
+
+#button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+#colour-box {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-style: solid;
+  border-width: 2px;
+  display: inline-block;
+  margin-top: 20px;
+}

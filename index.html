@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en-US" dir="ltr">
+    <head>
+        <meta charset="utf=8">
+        <title>Colour Box Task</title>
+        <link rel="stylesheet" href="styles.css">
+        <script type="module" src="script.js"></script>
+    </head>
+
+    <body>
+        <h1>Change properties of the box:</h1>
+
+        <form id="properties-form">
+            <div class="form-element">
+                <label for="width">Width (pixles):</label>
+                <input type="number" name="width" id="width-input" value="50">
+            </div>
+            <div class="form-element">
+                <label for="height">Height (pixles):</label>
+                <input type="number" name="height" id="height-input" value="50">
+            </div>
+            <div class="form-element">
+                <label for="colour">Colour:</label>
+                <input type="color" name="colour" id="colour-input" value="#ff0000">
+            </div>
+            <button id="button" type="button">Change properties</button>
+        </form>
+        <div id="colour-box"></div>
+    </body>
+</html>
